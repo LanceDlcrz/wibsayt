@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PINARELLO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+    body { background: #fff; color: #111; }
+
+    header {
+      background: black;
+      color: white;
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 80vh;
+      background: url(images/prodbg.jpg) no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h1 { font-size: 50px; margin-bottom: 20px; }
+
+    .hero button {
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      margin: 5px;
+      font-weight: bold;
+    }
+
+    .btn-dark { background: black; color: white; }
+    .btn-light { background: white; color: black; }
+
+    .products {
+      padding: 80px 10%;
+      text-align: center;
+    }
+
+    .grid {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 280px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>PINARELLO</h2>
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Performance Redefined</h1>
+    
+  </div>
+</section>
+
+<section class="products">
+  <h2>Our Models</h2>
+  <div class="grid">
+
+  <div class="card">
+    <a href="dogma.html">
+      <img src="images/dogma 1.png" alt="Dogma Series">
+    </a>
+    <h3>Dogma Series</h3>
+  </div>
+
+  <div class="card">
+    <a href="grevil.html">
+      <img src="images/grevil 1.png" alt="Dogma Series">
+    </a>
+    <h3>Grevil Series</h3>
+  </div>
+
+  <div class="card">
+    <a href="mtb.html">
+      <img src="images/mtb 3.png" alt="Dogma Series">
+    </a>
+    <h3>MTB Series</h3>
+  </div>
+
+</div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Lance Allen Dela Cruz ACT 1B
+</footer>
+
+</body>
+</html>

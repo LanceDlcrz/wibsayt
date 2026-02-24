@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apparels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+    body { background: #f5f5f5; color: #111; }
+
+    header {
+      background: black;
+      color: white;
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header a { color: white; text-decoration: none; font-weight: bold; }
+
+    h1 { text-align: center; margin: 40px 0; font-size: 32px; }
+
+  
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      padding: 0 10%;
+      margin-bottom: 60px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+      text-decoration: none;
+      color: #111;
+      display: block;
+    }
+
+
+    .product-card img {
+      width: 100%;
+      display: block;
+    }
+
+    .product-card h3 {
+      padding: 15px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <a href="index.html">Home</a>
+</header>
+
+<h1>APPARELS</h1>
+
+<section class="product-grid">
+
+  <a href="" class="product-card">
+    <img src="images/apl1.jpg" alt="Dogma Series">
+    <h3>DOGMA JERSEY</h3>
+  </a>
+
+  <a href="" class="product-card">
+    <img src="images/apl2.jpg" alt="F9 Series">
+    <h3>F9 JERSEY</h3>
+  </a>
+
+  <a href="" class="product-card">
+    <img src="images/apl3.jpg" alt="">
+    <h3>F7 JERSEY</h3>
+  </a>
+ 
+  <a href="" class="product-card">
+    <img src="images/apl4.jpg" alt="">
+    <h3>DOGMA BIBSHORT</h3>
+  </a>
+  
+  <a href="" class="product-card">
+    <img src="images/apl5.jpg" alt="">
+    <h3>F9 BIBSHORT</h3>
+  </a>
+ 
+  <a href="" class="product-card">
+    <img src="images/apl6.jpg" alt="">
+    <h3>F7 BIBSHORT</h3>
+  </a>
+
+
+</section>
+
+<footer style="background:black; color:white; text-align:center; padding:20px;">
+  © 2026 Lance Allen Dela Cruz ACT 1B
+</footer>
+
+</body>
+</html>
